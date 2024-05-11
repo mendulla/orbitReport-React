@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       <Banner />
-      <Buttons filterByType={filterByType} displaySats={displaySats} setSat={setSat} />
+      <Buttons filterByType={filterByType} displaySats={displaySats} setSat={setSat}/>
       <Table sat={sat} />
     </div>
   );
